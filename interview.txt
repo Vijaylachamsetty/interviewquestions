@@ -1,0 +1,127 @@
+1)Name four of the main data types in Python
+Ans: Numbers, strings, lists, dictionaries, tuples, files, and sets are generally considered the main types of data. Types, None, and Booleans are sometimes also classified this way. The integer, floating-point, complex, fraction and decimal are numerical data types and simple strings and Unicode strings in Python 2 and text strings and byte strings in Python 3 are the types of string data types.
+
+2)Why are these data types known as Python’s core data types?
+Ans: They are known as the core data types because they are part of the Python language itself and are always available to create other objects, you usually need to call functions in imported modules.
+Most of the data types have a specific syntax for generating objects: “spam”, for example, is an expression that creates a string and determines the set of operations that can be applied to it. For this reason, main types are built into Python syntax. Instead, you must call the built-in open function to create a file object.
+
+3)What does immutable mean and what three types of Python core data types are considered immutable?
+Ans:An immutable data type is a type of object which cannot be modified after its creation. Numbers, strings, and tuples in Python fall into this category. Although you cannot modify an immutable object in place, you can always create a new one by running an expression.
+
+4.)What does sequence mean and which three types of data fall into this category?
+Ans:A sequence data type is a collection of objects ordered by a specific position. In Python, Strings, lists, and tuples are the data types based on sequences. The Sequences share common sequence operations, such as indexing, concatenation, and slicing, but also have type-specific method calls.
+
+5)What does mapping mean and what kind of data type is based on mapping?
+Ans:The term mapping refers to an object that maps keys to associated values. The Python dictionary is the only type of mapping in the base typeset. Mappings do not maintain any left-to-right position order; they support access to stored data by key, as well as type-specific method calls.What is the output of the following code : 
+
+6)What is the output of the following code?
+print(bool(0), bool(3.14159), bool(-3), bool(1.0+1j))
+True True False True
+False True True True
+True True False True
+False True False True
+Explanation:
+If we pass A zero value to bool() constructor, it will treat it as a boolean False.
+Any non-zero value will be treated as a boolean True.
+7)a = 5, b = 6, c =7, d=7 What will be the outcome for the following:
+a<=b>=c
+-a+b==c>d
+b+c==6+d>=13
+Answer:
+
+>>> a<=b>=c
+False
+>>> -a+b==c>d
+False
+>>> b+c==6+d>=13
+True
+8)What is pass in Python?
+ANs:Pass means, no-operation Python statement, or in other words it is a place holder in compound statement, where there should be a blank left and nothing has to be written there.
+
+9)What Is The Difference Between Pass And Continue In Python? 
+
+The continue statement makes the loop to resume from the next iteration.
+ 
+On the contrary, the pass statement instructs to do nothing, and the remainder of the code executes as usual.
+
+10)What is the use of range () function in Python?
+Ans:
+The intent is to gain the candidate’s perception of range function and its purpose in programming.
+
+Sample response: The range () function generates a sequence of numbers within a specified range and is used in loops to iterate over a sequence of values.
+11)How do you write a conditional statement (if-else) in Python? 
+
+The intent is to assess the candidate’s ability to understand conditional statements in Python and writing code using if-else conditions.
+
+Sample response: In Python the following conditional statement is written using: 
+if condition: 
+    # Code to execute if condition is True 
+else: 
+    # Code to execute if condition is False 
+
+12) What keyword is used for looping?
+A) while
+B) for
+C) loop
+Answer: for
+
+13)What module is used for generating random values?
+A) math
+B) random
+C) randrange
+
+Answer: random
+
+14)5. What can we do to get out of the infinite loop below?
+
+#this code runs forever...
+x = 0
+while x != 11:
+x += 2
+print(x)
+
+A) Change the condition to x ! = 10
+B) Change the condition to x < 11
+C) Add logic that says if x == 10: break
+D) Press control + C while your program is running to kill it
+E) All of the above
+
+Answer: All of the above
+
+15). Differentiate between List and Tuple?
+Let’s analyze the differences between List and Tuple:
+
+List
+
+Lists are Mutable datatype.
+Lists consume more memory
+The list is better for performing operations, such as insertion and deletion.
+The implication of iterations is Time-consuming
+Tuple
+
+Tuples are Immutable datatype.
+Tuple consumes less memory as compared to the list
+A Tuple data type is appropriate for accessing the elements
+The implication of iterations is comparatively Faster
+
+16) Will the do-while loop work if you don’t end it with a semicolon?
+ANS:
+Trick question! Python does not support an intrinsic do-while loop. Secondly, to terminate do-while loops is a necessity for languages like C++.
+
+17) What are membership operators?
+ANS:
+With the operators ‘in’ and ‘not in’, we can confirm if a value is a member in another.
+
+18)What is a control flow statement?
+Ans:
+A Python program usually starts to execute from the first line. From there, it moves through each statement just once and as soon as it’s done with the last statement, it transactions the program. However, sometimes, we may want to take a more twisted path through the code.
+Control flow statements let us disturb the normal execution flow of a program and bend it to our will.
+
+19) If you are ever stuck in an infinite loop, how will you break out of it?
+Ans:
+press ctrl+c to break infinite loop
+
+20) Explain Python’s parameter-passing mechanism.
+Ans:
+To pass its parameters to a function, Python uses pass-by-reference. If you change a parameter within a function, the change reflects in the calling function. This is its default behavior. However,
+when we pass literal arguments like strings, numbers, or tuples, they pass by value. This is because they are immutable.
