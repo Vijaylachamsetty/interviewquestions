@@ -24,6 +24,7 @@ False True False True
 Explanation:
 If we pass A zero value to bool() constructor, it will treat it as a boolean False.
 Any non-zero value will be treated as a boolean True.
+
 7)a = 5, b = 6, c =7, d=7 What will be the outcome for the following:
 a<=b>=c
 -a+b==c>d
@@ -36,13 +37,13 @@ False
 False
 >>> b+c==6+d>=13
 True
+
 8)What is pass in Python?
 ANs:Pass means, no-operation Python statement, or in other words it is a place holder in compound statement, where there should be a blank left and nothing has to be written there.
 
 9)What Is The Difference Between Pass And Continue In Python? 
-
+Ans:
 The continue statement makes the loop to resume from the next iteration.
- 
 On the contrary, the pass statement instructs to do nothing, and the remainder of the code executes as usual.
 
 10)What is the use of range () function in Python?
